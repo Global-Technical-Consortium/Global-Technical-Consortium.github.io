@@ -1,0 +1,38 @@
+---
+---
+
+
+:root {
+    font-size: 1rem;
+    @media only screen and (max-width: 576px) {
+        font-size: 1.2rem;
+    }
+}
+
+body {
+    font-family: "Lato";
+}
+
+
+
+.breadcrumbs {
+    text-transform: uppercase;
+}
+
+.footer {
+    font-size: 0.8rem;
+
+    .fa {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.3em;
+        background-color: gray;
+        border-radius: 1em;
+        width: 1.5em;
+        text-align: center;
+    }
+
+    .fa:hover {
+        background-color: #000;
+    }
+}
