@@ -8,7 +8,7 @@ title: UK
 nav: 
 sitemap: left
 sort: 0
-hero-image: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+hero-image: https://images.unsplash.com/photo-1680032896129-b3b75e1f5005?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80
 ---
 
 {% include image.html lightbox="false" src=page.hero-image data="group" title="Image title" width="100%" height="350px" %}
