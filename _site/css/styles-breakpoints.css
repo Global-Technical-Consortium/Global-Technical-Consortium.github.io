@@ -1,37 +1,51 @@
 :root {
-  --luminacious-fs-1: 250%;
-  --luminacious-fs-2: 170%;
+  --luminacious-fs-1: 160%;
+  --luminacious-fs-2: 130%;
   --luminacious-fs-3: 100%;
   --luminacious-fs-4: 80%;
   --luminacious-fs-5: 60%;
   --luminacious-fs-6: 50%;
 }
 
-.fs-1 {
+.markdown-content {
+  font-size: 80%;
+}
+.markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content p {
+  margin: 1rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.markdown-content > h1, .fs-1 {
   font-size: var(--luminacious-fs-1) !important;
 }
 
-.fs-2 {
+.markdown-content > h2, .fs-2 {
   font-size: var(--luminacious-fs-2) !important;
 }
 
-.fs-3 {
+.markdown-content > h3, .fs-3 {
   font-size: var(--luminacious-fs-3) !important;
 }
 
-.fs-4 {
+.markdown-content > h4, .fs-4 {
   font-size: var(--luminacious-fs-4) !important;
 }
 
-.fs-5 {
+.markdown-content > h5, .fs-5 {
   font-size: var(--luminacious-fs-5) !important;
 }
 
-.fs-6 {
+.markdown-content > h6, .fs-6 {
   font-size: var(--luminacious-fs-6) !important;
 }
 
 @media (min-width: 576px) {
+  .markdown-content {
+    font-size: 100%;
+  }
   .fs-sm-1 {
     font-size: var(--luminacious-fs-1) !important;
   }

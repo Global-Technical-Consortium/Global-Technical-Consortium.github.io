@@ -31,4 +31,16 @@ body {
   background-color: #000;
 }
 
+.markdown-content {
+  font-size: 100%;
+}
+.markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content p {
+  margin: 1rem 0;
+}
+
+.logo {
+  font-family: "Bebas Neue", sans-serif;
+  padding-right: 1.8rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
