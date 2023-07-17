@@ -41,6 +41,10 @@ body {
 .logo {
   font-family: "Bebas Neue", sans-serif;
   padding-right: 1.8rem;
+  font-size: 100%;
+}
+.logo .tm {
+  font-size: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
