@@ -6,6 +6,7 @@ parent: Why Choose Us
 thumbnail: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 title: Tailored Solutions for your Success
 subtitle: Whether you need technical consulting, engineering design, compliance assessments, or talent acquisition, we tailor our services to maximize your success.
+sort: 3
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

@@ -6,6 +6,7 @@ parent: Why Choose Us
 thumbnail: https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
 title: Regulatory Compliance Excellence
 subtitle: We help you navigate the intricate compliance requirements, ensuring that your products meet the necessary standards and certifications.
+sort: 2
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}
