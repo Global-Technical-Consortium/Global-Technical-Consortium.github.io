@@ -9,7 +9,7 @@ sitemap: left
 sort: 2
 breadcrumb-hidelast: true
 ---
-# Our Services
+# {{page.title}}
 
 At Global Technical Consortium, we pride ourselves on delivering exceptional services tailored to the unique needs of our clients in the automotive, aeronautics, electrification, electric vehicles, and battery management industries. With a team of highly skilled professionals and a deep understanding of industry dynamics, we offer a comprehensive range of specialized services to support your projects and drive your success.
 
