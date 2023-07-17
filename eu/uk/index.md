@@ -13,9 +13,9 @@ hero-image: https://images.unsplash.com/photo-1680032896129-b3b75e1f5005?ixlib=r
 
 {% include image.html lightbox="false" src=page.hero-image data="group" title="Image title" width="100%" height="450px" %}
 
-# Welcome to Global Technical Consortium
+# Global Technical Consortium
 
-## Your Partner in Technical Expertise, Regulatory Compliance, and Engineering Talent
+## Your Partner in Regulatory Compliance & Engineering Talent
 
 At Global Technical Consortium, we are dedicated to providing exceptional technical expertise, regulatory compliance engineering talent, and comprehensive solutions to manufacturers in the automotive, aeronautics, electrification, electric vehicles, and battery management industries.
 
