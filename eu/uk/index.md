@@ -21,6 +21,7 @@ At Global Technical Consortium, we are dedicated to providing exceptional techni
 
 We understand the unique challenges and requirements of these dynamic sectors, and our mission is to support your success by delivering top-notch services and professionals.
 
+{% include cards.html parent="Why Choose Us" %}
 
 Home of {{page.title}}
 

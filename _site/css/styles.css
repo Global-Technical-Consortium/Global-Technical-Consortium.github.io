@@ -37,6 +37,9 @@ body {
 .markdown-content h1, .markdown-content h2, .markdown-content h3, .markdown-content h4, .markdown-content p {
   margin: 1rem 0;
 }
+.markdown-content h1 {
+  color: #3b71ca;
+}
 
 .logo {
   font-family: "Bebas Neue", sans-serif;
