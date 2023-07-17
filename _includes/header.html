@@ -4,7 +4,8 @@
     {% assign hp = site.pages | where_exp: "item", "item.is-country-root" | where_exp: "item", "item.country == page.country" | first %}
     {% assign home-url = hp.url %}
     
-{% include logo.html %}
+
+<a class="navbar-brand py-0 me-5" href="/">{% include logo.html %}</a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
