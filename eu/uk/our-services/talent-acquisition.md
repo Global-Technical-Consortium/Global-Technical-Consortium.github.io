@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1560264418-c4445382edbc?ixlib=rb-4.
 title: Talent Acquisition
 subtitle: We connect you with experts in automotive, aeronautics, electric vehicles, and battery management who possess the skills and knowledge you require.
 sort: 4
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb
 title: Tailored Solutions for your Success
 subtitle: Whether you need technical consulting, engineering design, compliance assessments, or talent acquisition, we tailor our services to maximize your success.
 sort: 3
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

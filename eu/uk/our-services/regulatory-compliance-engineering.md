@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb
 title: Regulatory Compliance Engineering
 subtitle: We provide comprehensive compliance assessments, strategy development and implementation guidance to ensure your products meet the necessary certifications.
 sort: 2
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

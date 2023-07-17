@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb
 title: Unparalleled Technical Expertise
 subtitle: We stay abreast of the latest advancements, trends, and best practices in these industries, ensuring that we provide cutting-edge solutions tailored to your specific needs.
 sort: 1
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

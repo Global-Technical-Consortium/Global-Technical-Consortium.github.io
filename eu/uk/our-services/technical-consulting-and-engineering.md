@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb
 title: Technical Consulting and Engineering
 subtitle: Leverage our expertise to develop innovative solutions, enhance product performance, and optimize design processes for all your technical projects.
 sort: 1
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

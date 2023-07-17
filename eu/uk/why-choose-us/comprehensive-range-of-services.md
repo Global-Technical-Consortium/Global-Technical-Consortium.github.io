@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb
 title: Comprehensive Range of Services
 subtitle: From initial concept & development to testing, project management, and talent acquisition, we provide a full suite of services to support you at every stage.
 sort: 4
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}

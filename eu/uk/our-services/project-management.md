@@ -7,6 +7,7 @@ thumbnail: https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb
 title: Project Management
 subtitle: Our experienced project managers oversee every aspect of your project, ensuring seamless coordination, adherence to timelines, and effective resource allocation.
 sort: 3
+breadcrumb-hidelast: true
 ---
 
 {% include image.html lightbox="false" src=page.thumbnail data="group" title="Image title" width="100%" height="350px" %}
