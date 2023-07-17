@@ -27,7 +27,7 @@ We understand the unique challenges and requirements of these dynamic sectors, a
 
 Choosing the right partner for your technical expertise and engineering needs is crucial for the success of your projects. At Global Technical Consortium, we are the leading provider of specialist technical expertise, regulatory compliance engineering, and talent acquisition services for industries focused on automotive, aeronautics, electrification, electric vehicles, and battery management.
 
-{% include cards.html parent="Why Choose Us" %}
+{% include cards.html parent="Why Choose Us" limit=4 class="col-12 col-sm-6" %}
 
 With our unparalleled technical expertise, commitment to quality, and client-centric approach, we are the trusted choice for manufacturers seeking innovative solutions and reliable support. Explore the reasons why Global Technical Consortium stands out from the competition.
 
@@ -37,6 +37,6 @@ With our unparalleled technical expertise, commitment to quality, and client-cen
 
 At Global Technical Consortium, we pride ourselves on delivering exceptional services tailored to the unique needs of our clients in the automotive, aeronautics, electrification, electric vehicles, and battery management industries. With a team of highly skilled professionals and a deep understanding of industry dynamics, we offer a comprehensive range of specialized services to support your projects and drive your success.
 
-{% include cards.html parent="Our Services" %}
+{% include cards.html parent="Our Services"  limit=4 %}
 
 From technical consulting and engineering design to regulatory compliance engineering, prototyping and testing, project management, and talent acquisition, we provide end-to-end solutions that empower your organization to thrive in a rapidly evolving market. Explore our services below and discover how Global Technical Consortium can be your trusted partner in achieving your goals.

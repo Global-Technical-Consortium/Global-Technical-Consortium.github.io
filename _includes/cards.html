@@ -1,7 +1,9 @@
 <div class="row my-3">
+{% assign default_class = "col-12 col-sm-6 col-md-6 col-lg-3" %}
+{% if include.class %}{% assign default_class = include.class %}{% endif %}
 {% assign press_pages = site.pages | where_exp: "item", "item.parent == include.parent" | where_exp: "item", "item.country == page.country" | sort: "sort" %}
 {% for p in press_pages limit:include.limit %}
-<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+<div class="{{default_class}}">
   <p><a href="{{p.url}}" ><img src="{{p.thumbnail}}" width="100%"/></a></p>
   <p><a href="{{p.url}}" class="text-decoration-none fw-bold">{{p.title}}</a></p>
   <p><a href="{{p.url}}" class="text-decoration-none text-dark">{{p.subtitle}}</a></p>
