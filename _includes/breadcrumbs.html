@@ -1,3 +1,4 @@
+{% unless page.hide-breadcrumbs == true %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
@@ -10,3 +11,4 @@
   {% endif %}
 {% endfor %}
 </ol></nav>
+{% endunless %}
